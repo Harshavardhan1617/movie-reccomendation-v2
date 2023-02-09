@@ -16,10 +16,10 @@ WHERE imdb_links IS NULL AND tweet LIKE '%/t.co%'
 GROUP BY t.unix_time
 """
 
-DATABASE_LOCATION = "sqlite:////media/harsha/workspace/projects/Movie-Reccomendation-App/database_v2/movies.sqlite"
+DATABASE_LOCATION = "sqlite:////home/harsha/Documents/Movie-Reccomendation-App/database_v2/movies.sqlite"
 #Connecting to sqlite
 engine = sqlalchemy.create_engine(DATABASE_LOCATION)
-conn = sqlite3.connect('/media/harsha/workspace/projects/Movie-Reccomendation-App/database_v2/movies.sqlite')
+conn = sqlite3.connect('/home/harsha/Documents/Movie-Reccomendation-App/database_v2/movies.sqlite')
 #Creating a cursor object using the cursor() method
 cursor = conn.cursor()
 

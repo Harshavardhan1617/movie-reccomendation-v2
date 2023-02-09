@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 
-conn = sqlite3.connect("movies.sqlite")
+conn = sqlite3.connect("/home/harsha/Documents/Movie-Reccomendation-App/database_v2/movies.sqlite")
 cursor = conn.cursor()
 
 query = """
