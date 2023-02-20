@@ -172,7 +172,7 @@ while True:
         imdb_links VARCHAR(200),
         username VARCHAR(200),
         date VARCHAR(200),
-        user_id VARCHAR(200),
+        twiter_id VARCHAR(200),
         unix_time VARCHAR(200)
     )
     """
