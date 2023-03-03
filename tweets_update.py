@@ -22,10 +22,10 @@ dt_string0 = now0.strftime("%d/%m/%Y %H:%M:%S")
 #Creating a cursor object using the cursor() method
 
         #for wsl
-DATABASE_LOCATION = "sqlite:////mnt/h/'My Drive'/Databases/movies.sqlite"
+DATABASE_LOCATION = "sqlite:////mnt/e/drive_db_backup/movies.sqlite"
 #Connecting to sqlite
 engine = sqlalchemy.create_engine(DATABASE_LOCATION)
-conn = sqlite3.connect('/mnt/h/'My Drive'/Databases/movies.sqlite')
+conn = sqlite3.connect("/mnt/e/drive_db_backup/movies.sqlite")
 #cursor
 cursor = conn.cursor()
 
